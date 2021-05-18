@@ -9,5 +9,8 @@ log/*.log
 tmp/**
 node_modules/
 .sass-cache
+<<<<<<< HEAD
 dist/*.map
-dist/video/**
+=======
+dist/*.map
+>>>>>>> d8b1d226a75e0238ae17d2db15068588c4461c32
