@@ -98,10 +98,6 @@
     }
   },
   "dependencies": {
-<<<<<<< HEAD
-    "materialize-css": "^1.0.0-rc.2",
-=======
->>>>>>> d8b1d226a75e0238ae17d2db15068588c4461c32
     "reveal.js-menu": "^2.1.0"
   }
 }
