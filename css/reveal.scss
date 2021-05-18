@@ -1812,6 +1812,46 @@ $notesWidthPercent: 25%;
 }
 
 
+
+
+/*******************************************************/
+/*******************CUSTOM STYLES **********************/
+/*******************************************************/
+
+.logo {
+    max-width: 250px!important;
+    width: 100%;
+}
+
+.qr-code-container {
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	margin-top: 5%;
+	
+}
+
+.qr-code-img {
+	border: 1px solid #98bdef;
+	max-width: 150px!important;
+    width: 100%;
+}
+
+.qr-code-img {
+	width: 100%;
+}
+
+.title-text {
+	color: #303f9f!important;
+}
+
+/*******************************************************/
+/****************** END CUSTOM STYLES ******************/
+/*******************************************************/
+
+
+
+
 /*********************************************
  * PRINT STYLES
  *********************************************/
