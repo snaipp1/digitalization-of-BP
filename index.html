@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/white.css">
+		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -27,24 +27,27 @@
 		</div>
 
 		<script src="dist/reveal.js"></script>
-		<script src="plugin/chalkboard/plugin.js"></script>
 		<script src="node_modules/reveal.js-menu/menu.js"></script>
-		
+		<script src="plugin/chalkboard/plugin.js"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
-				hash: true,
-				menu: { // Menu works best with font-awesome installed: sudo apt-get install fonts-font-awesome
-					themes: false,
-					transitions: false,
+				controls: true,
+        		progress: true,
+        		center: true,
+        		hash: true,
+        		slideNumber: 'c',
+				plugins: [ RevealMenu, RevealChalkboard ],
+				menu: {
+					themes: true, // Menu works best with font-awesome installed: sudo apt-get install fonts-font-awesome
 					markers: true,
 					hideMissingTitles: true,
 					custom: [
-				            { title: 'Sources', icon: '<i class="fa fa-external-link-alt"></i>', src: 'toc.html' },
 				            { title: 'Authors', icon: '<i class="fa fa-users"></i>', src: 'about.html' }
 				        ],
+					
 					transitions:['Fade', 'Convex', 'Concave', 'Zoom']
 				},
 				chalkboard: { // font-awesome.min.css must be available
@@ -54,8 +57,6 @@
 					toggleNotesButton: { left: "130px" },
 					colorButtons: 5
 				},
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMenu, RevealChalkboard  ]
 			});
 		</script>
 	</body>
