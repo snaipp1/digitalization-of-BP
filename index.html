@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Цифровизация бизнес-процессов. Реальные кейсы.</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<link rel="stylesheet" href="plugin/chalkboard/palette.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-menu-title="Главная страница" data-background-video="dist/video/videoplayback.mp4" 
+				data-background-video-loop data-background-opacity="0.2" data-background-video-muted>
+					<img class="logo" src="dist/images/logo.png" alt="Logo">
+					<h4 class="title-text">Цифровизация бизнес-процессов. Реальные кейсы.</h4>
+					<div class="qr-code-container">
+						<div class="qr-code-container">
+							<img src="dist/images/qr-code.png" class="qr-code-img" alt="presentation QR-code">
+						</div>
+					</div>
+				  </section>
+				<section data-menu-title="Смена технологий">
+					<h5 class="paragraph-title">Смена применяемых информационных технологий терминологии</h5>
+					<div class="chart-container">
+						<svg viewBox="0 0 3481.9048 2359.365">
+							<path class="part1-chart" d="M 276.06175,186.18118 841.02534,182.97116 837.81532,1881.072 H 266.43169 Z" fill="#FF7F50"></path>
+							<path class="part1-chart" d="m 844.23536,176.55112 609.90384,-6.42004 6.4201,1710.94092 H 837.81532 Z" fill="#FFD700"></path>
+							<path class="part1-chart" d="m 1454.1392,208.65133 1775.1413,-6.42005 -3.21,1669.21062 -1768.7212,-6.4201 z" fill="#00FF7F"></path>
+						</svg>	
+						<img src="dist/images/chart.png" class="chart-img" alt="Digital chart">
+					</div>
+				</section>
+				<section>Slide 2</section>
+			</div>
+		</div>
+		<script src="dist/reveal.js"></script>
+		<script src="node_modules/reveal.js-menu/menu.js"></script>
+		<script src="plugin/chalkboard/plugin.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+        		progress: true,
+        		center: true,
+        		hash: true,
+        		slideNumber: 'c',
+				plugins: [ RevealMenu, RevealChalkboard ],
+				menu: {
+					themes: true, 
+					markers: true,
+					hideMissingTitles: true,
+					custom: [
+				            { title: 'Authors', icon: '<i class="fa fa-users"></i>', src: 'about.html' }
+				        ],
+					
+					transitions:['Fade', 'Convex', 'Concave', 'Zoom']
+				},
+				chalkboard: { 
+					src: "chalkboard/chalkboard.json",
+					storage: "chalkboard-demo",
+					toggleChalkboardButton: { left: "80px" },
+					toggleNotesButton: { left: "130px" },
+					colorButtons: 5
+				},
+			});
+		</script>
+	</body>
+</html>
