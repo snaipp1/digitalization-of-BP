@@ -2189,6 +2189,37 @@ svg {
 	color: #303f9f;
 }
 
+.optimization-container {
+	margin: 10% auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.optimiztion-img img {
+	border: 3px solid #303f9f;
+	border-radius: 10px;
+}
+
+table {
+	width: 100%;
+	font-size: 26px;
+	color: #303f9f;
+	border: 3px solid #303f9f;
+	border-radius: 10px;
+}
+table th, td {
+	border:1px solid #303f9f;
+}
+
+table td {
+	color: #000
+}
+th img {
+	max-width: 50px!important;
+}
+
 /*******************************************************/
 /****************** END CUSTOM STYLES ******************/
 /*******************************************************/
