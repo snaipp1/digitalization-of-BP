@@ -2097,7 +2097,8 @@ svg {
 }
 
 .principles-body-data:hover {
-	transform: scale(1.05)
+	transform: scale(1.05);
+	cursor: pointer;
 }
 
 .principles-body-data img {
@@ -2115,7 +2116,60 @@ svg {
 }
 
 .principles-img-container img:hover {
-	transform: scale(1.05)
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+.preparing-process-transformation-container {
+	margin: 10% auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.preparing-type {
+	max-width: 33%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	border-right: 1px solid  #303f9f;
+}
+
+.preparing-type:nth-last-child(1) {
+	border-right:none;
+}
+
+
+.preparing-type-item {
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	border: 3px solid #303f9f;
+	border-radius: 10px;
+	margin: 10px;
+	transition: all .3s ease;
+}
+
+.preparing-type-item:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+.preparing-type-item img {
+	max-width: 70px!important;
+	width: 100%;
+	margin-right: 20px;
+
+}
+
+.preparing-type-item p {
+	margin-left: 10px!important;
+	font-size: 14px;
+	color: #303f9f;
 }
 
 /*******************************************************/
