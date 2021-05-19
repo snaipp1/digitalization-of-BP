@@ -1974,6 +1974,88 @@ svg {
 	width: 100%;
 }
 
+.conditions-title {
+	font-size: 14px;
+	color: #303f9f!important;
+	text-shadow: 0 1px 0 #ccc, 
+				 0 2px 0 #c9c9c9, 
+				 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+				 0 5px 0 #aaa, 
+				 0 6px 1px rgba(0, 0, 0, 0.1), 
+				 0 0 5px rgba(0, 0, 0, 0.1), 
+				 0 1px 3px rgba(0, 0, 0, 0.3), 
+				 0 3px 5px rgba(0, 0, 0, 0.2), 
+				 0 5px 10px rgba(0, 0, 0, 0.25), 
+				 0 20px 20px rgba(0, 0, 0, 0.15)!important;
+}
+
+.conditions-container {
+	margin: 10% 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+}
+
+.conditions-data {
+	max-width: 50%;
+	width: 100%;
+}
+
+.body-data{
+	width: 100%;
+	border: 3px solid #303f9f;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	-webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+	transition: all .3s ease;
+}
+
+.body-data:hover {
+	background-color: #fff;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.body-data p {
+	font-size: 14px;
+	color: #303f9f;
+}
+
+.body-data b {
+	font-size: 14px;
+	color: #111111;
+}
+
+.conditions-task {
+	max-width: 30%;
+	width: 100%;
+}
+
+.body-task-data{
+	padding: 20px;
+	width: 100%;
+	border: 3px solid #303f9f;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	-webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+	transition: all .3s ease;
+}
+
+.body-task-data:hover {
+	background-color: #fff;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.body-task-data p {
+	font-size: 18px;
+	color: #303f9f;
+}
+
 /*******************************************************/
 /****************** END CUSTOM STYLES ******************/
 /*******************************************************/
