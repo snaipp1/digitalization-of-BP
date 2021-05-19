@@ -2630,3 +2630,22 @@ export default function( revealElement, options ) {
 	return API;
 
 };
+
+const kassaButtons = document.querySelectorAll('.kassa-button');
+
+if(kassaButtons) {
+	const elem = document.querySelector('.kassa-img-data');
+	kassaButtons.forEach(button => {
+		button.addEventListener('click', (e) => {
+			if (e.target.getAttribute('data-number') === '1') {
+				elem.setAttribute('src','dist/images/kassa1.png');
+			}else if(e.target.getAttribute('data-number') === '2') {
+				elem.setAttribute('src','dist/images/kassa2.png');
+			}else if (e.target.getAttribute('data-number') === '3') {
+				elem.setAttribute('src','dist/images/kassa3.png');
+			}else {
+				elem.setAttribute('src','dist/images/kassa4.png');
+			}
+		});
+	});
+}
