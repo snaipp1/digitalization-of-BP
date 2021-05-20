@@ -2240,15 +2240,20 @@ th img {
 .kass-img img {
 	width: 95%;
 	height: 95%;
+	transition: all .5s ease;
 }
 
-#kassa {
-	position: absolute;
-	top: 5;
-	left: 5;
-	height: 97%;
-    width: 87%;
+.kass-img img:hover {
+	transform: scale(1.1);
 }
+
+// #kassa {
+// 	position: absolute;
+// 	top: 5;
+// 	left: 5;
+// 	height: 97%;
+//     width: 87%;
+// }
 
 .option-data {
 	background-image: url('images/logo.png')!important;
@@ -2257,6 +2262,29 @@ th img {
 .result {
 	margin: 10% auto!important;
 }
+
+#risk-svg {
+	position: absolute;
+	top: 5;
+	left: 5;
+	height: 95%;
+	width: 95%;
+}
+
+.svg-arrow {
+	opacity: 0;
+	animation: radial-pulse 1s infinite; 
+}
+
+@keyframes radial-pulse {
+	0% {
+		opacity: .5;
+	}
+  
+	100% {
+		opacity: 1;
+	}
+  }
 
 /*******************************************************/
 /****************** END CUSTOM STYLES ******************/
