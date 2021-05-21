@@ -2316,7 +2316,69 @@ th img {
 	100% {
 		opacity: 1;
 	}
-  }
+}
+
+.ticket-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.ticket-img {
+	max-width: 35%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.ticket-img img {
+	transition: all .4s ease;
+}
+
+.ticket-img img:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.ticket-options {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 65%;
+}
+
+.ticket-options img {
+	max-width: 650px!important;
+	width: 100%!important;
+	transition: all .4s ease;
+}
+
+.ticket-options img:hover {
+	transform: scale(1.3);
+	cursor: pointer;
+}
+
+.btn {
+	font-size: 14px;
+	width: 250px;
+    background-color: #303f9f;
+	color: #fff!important;
+    padding: 10px 10px;
+    border-radius: 10px;
+	-webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+	transition: all .4s ease!important;
+}
+
+.btn:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+
+
 
 /*******************************************************/
 /****************** END CUSTOM STYLES ******************/
