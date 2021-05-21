@@ -1975,7 +1975,7 @@ $notesWidthPercent: 25%;
 }
 
 .conditions-title {
-	font-size: 14px;
+	font-size: 21px;
 	color: #303f9f!important;
 	text-shadow: 0 1px 0 #ccc, 
 				 0 2px 0 #c9c9c9, 
@@ -2023,12 +2023,14 @@ $notesWidthPercent: 25%;
 }
 
 .body-data p {
-	font-size: 14px;
+	margin-left: 20px;
+	text-align: left;
+	font-size: 18px;
 	color: #303f9f;
 }
 
 .body-data b {
-	font-size: 14px;
+	font-size: 18px;
 	color: #111111;
 }
 
@@ -2050,6 +2052,7 @@ $notesWidthPercent: 25%;
 }
 
 .body-task-data{
+	font-size: 18px;
 	padding: 20px;
 	width: 100%;
 	border: 3px solid #303f9f;
@@ -2079,6 +2082,7 @@ $notesWidthPercent: 25%;
 }
 
 .principles-container {
+	padding: 0 10px;
 	margin: 5% 0;
 	display: flex;
 	flex-direction: column;
@@ -2267,6 +2271,10 @@ th img {
 	max-width: 50%;
 	padding: 0 20px;
 	margin-right: 20px;
+}
+
+.kassa-button p{
+	font-size: 18px!important;
 }
 
 .kass-img img {
